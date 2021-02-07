@@ -1,6 +1,6 @@
 # GSOM Python Package
 
-The package allows two different input methods, the first one starts a GSOM execution, with both Growing phase and Smoothing phase. On the above example, a GSOM grid is initialized with a Spread Factor configured as 1.0 and a 0.7 Learning Rate. After that, a Growing Phase with 5 iterations will be started, and followed by a Smoothing Phase with 15 iterations. 
+The package allows two different input methods, the first one starts a GSOM execution, with both a Growing phase and a Smoothing phase. On the above example, a GSOM grid is initialized with a Spread Factor configured as 1.0 and a 0.7 Learning Rate. After that, a Growing Phase with 5 iterations will be started, and followed by a Smoothing Phase with 15 iterations. 
 
 ```python
 init_grid (input, sf = 1.0, alfa = 0.7)
